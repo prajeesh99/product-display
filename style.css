@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navbar{
+    background-color: chocolate;
+}
+.stores{
+    font-size: 2rem;
+    color: white;
+    font-family: 'Lobster', cursive;
+    
+}
+.stores:hover{
+    color: white;
+    text-decoration: none;
+}
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+    text-transform: uppercase;
+    
+}
+.nav-link:hover{
+    color: white;
+    background-color: burlywood;
+    border-radius: 60px;
+}
+.search{
+    
+    border-radius: 60px;
+    outline: none;
+}
+.btn0{
+    
+    outline: none;
+    border: none;
+    background-color:crimson;
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+    padding: 3px;
+}
+.main{
+    background: url(img.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 4rem;
+    font-family: 'Lobster', cursive;
+
+}
+#books h1{
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+}
+#pens h1{
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+}
+#penciles h1{
+    font-weight: 700;
+    font-family: 'Lobster', cursive;
+}
+.card {
+    min-height: 200px;
+    height: 400px;
+}
+.btn1{
+    color: white;
+    background-color: #ff6347;
+    padding: 3px;
+    border-radius: 6px;
+}
